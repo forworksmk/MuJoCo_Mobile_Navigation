@@ -1,0 +1,34 @@
+<mujoco>
+    <compiler angle="radian" autolimits="true"/>
+
+    <worldbody>
+        <body name="floor" pos="0 0 -0.02" quat="0.707107 0 0 0.707107">
+            <geom name="floor_geom" size="3 2 0.02" type="box" rgba="1 1 1 1" />
+        </body>
+        <body name="wall_horizon_1" pos="-2 -1 1" quat="0.5 -0.5 -0.5 0.5">
+            <geom name="wall_horizon_1_geom" size="2 1 0.02" type="box" rgba="1 1 1 1" />
+        </body>
+        <body name="wall_horizon_2" pos="0 -2 1" quat="0.5 -0.5 -0.5 0.5">
+            <geom name="wall_horizon_2_geom" size="1 1 0.02" type="box" rgba="1 1 1 1" />
+        </body>
+        <body name="wall_horizon_3" pos="0 2 1" quat="0.5 -0.5 -0.5 0.5">
+            <geom name="wall_horizon_3_geom" size="1 1 0.02" type="box" rgba="1 1 1 1" />
+        </body>
+        <body name="wall_horizon_4" pos="2 1 1" quat="0.5 -0.5 -0.5 0.5">
+            <geom name="wall_horizon_4_geom" size="2 1 0.02" type="box" rgba="1 1 1 1" />
+        </body>
+
+        <body name="wall_vertical_1" pos="-1 -3 1" quat="0 0 0.707107 -0.707107">
+            <geom name="wall_vertical_1_geom" size="1 1 0.02" type="box" rgba="1 1 1 1" />
+        </body>
+        <body name="wall_vertical_2" pos="-1 1 1" quat="0 0 0.707107 -0.707107">
+            <geom name="wall_vertical_2_geom" size="1 1 0.02" type="box" rgba="1 1 1 1" />
+        </body>
+        <body name="wall_vertical_3" pos="1 -1 1" quat="0 0 0.707107 -0.707107">
+            <geom name="wall_vertical_3_geom" size="1 1 0.02" type="box" rgba="1 1 1 1" />
+        </body>
+        <body name="wall_vertical_4" pos="1 3 1" quat="0 0 0.707107 -0.707107">
+            <geom name="wall_vertical_4_geom" size="1 1 0.02" type="box" rgba="1 1 1 1" />
+        </body>
+    </worldbody>
+</mujoco>

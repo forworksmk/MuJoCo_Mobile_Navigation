@@ -1,0 +1,9 @@
+<mujoco>
+    <compiler angle="radian" autolimits="true"/>
+    <visual>
+        <global ipd="7.7" elevation="-78" azimuth="170"/>
+    </visual>
+
+    <include file="./kobuki.xml" />
+    <include file="./room.xml" />
+</mujoco>
